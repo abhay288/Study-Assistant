@@ -1,0 +1,5 @@
+{
+  "name": "Study Assistant",
+  "description": "An AI app that works offline for basic Q&A and summaries and switches to a cloud-based Gemini model for advanced answers, diagrams, and more.",
+  "requestFramePermissions": []
+}
