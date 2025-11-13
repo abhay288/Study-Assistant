@@ -99,8 +99,7 @@ npm run preview
 
 ---
 
-# 🌐 Deployment
-Deploy on **Vercel**  
+# 🌐 Deployment  
 Add env variable:  
 ```
 VITE_GEMINI_API_KEY=your_api_key
