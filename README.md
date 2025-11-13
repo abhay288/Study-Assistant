@@ -1,7 +1,5 @@
 
 # 🌟 Study Assistant — AI-Powered Notes Summarizer  
-### 🔗 Live Demo: https://study-assistant-55jm.vercel.app/
-
 A smart and powerful web application that helps students summarize notes, extract text from PDFs, read scanned documents using OCR, and export clean summaries — all in a beautiful, responsive interface.
 
 Built using **React + Vite**, powered by **Google Gemini AI**, **pdf.js**, and **Tesseract.js**.
