@@ -17,8 +17,7 @@ import FileExportIcon from "./icons/FileExportIcon";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
 
 // Use CDN worker (Best practice for Vite & avoids build errors)
-pdfjsLib.GlobalWorkerOptions.workerSrc =
-  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs";
+pdfjsLib.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
 // ------------------------------------------------------
 // ✅ Correct Tesseract import
