@@ -2,6 +2,13 @@
   command = "npm run build"
   publish = "dist"
 
+# Fix blank screen – Netlify must treat .mjs as JS
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+# Required for SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
